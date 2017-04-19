@@ -37,7 +37,10 @@
             android:name=".Menu_Calculator_Fragment"
             android:label="Menu_Calculator_Fragment">
         </activity>
-
+        <activity
+            android:name=".NutritionQuizActivity"
+            android:label="NutritionQuizActivity">
+        </activity>
     </application>
 
 </manifest>

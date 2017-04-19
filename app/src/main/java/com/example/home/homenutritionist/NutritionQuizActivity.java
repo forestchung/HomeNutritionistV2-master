@@ -20,8 +20,6 @@ import java.util.List;
 
 
 public class NutritionQuizActivity extends AppCompatActivity {
-
-
     //for version 2; dynamic change q and asnwers and image
 
     private List<String> quizFlagNameList; //countries in current quiz
@@ -221,6 +219,7 @@ public class NutritionQuizActivity extends AppCompatActivity {
             flagImageView.startAnimation(shakeAnimation);//play shake
             buttonName.setEnabled(false);
         }
+
     }
 
 
